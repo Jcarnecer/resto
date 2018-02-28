@@ -27,14 +27,14 @@ date_default_timezone_set('Asia/Manila');
 
 switch (ENVIRONMENT) {
 	case 'development':
-		$config['base_url'] = 'http://localhost/main/';
+		$config['base_url'] = 'http://localhost/resto/';
 		break;
-	case 'testing':
-		$config['base_url'] = 'http://stage.payakkaps.com/';
-		break;
-	case 'production':
-		$config['base_url'] = 'http://payakapps.com/';
-		break;
+	// case 'testing':
+	// 	$config['base_url'] = 'http://stage.payakkaps.com/';
+	// 	break;
+	// case 'production':
+	// 	$config['base_url'] = 'http://payakapps.com/';
+	// 	break;
 }
 
 /*

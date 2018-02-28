@@ -52,10 +52,10 @@
 						}
 					?>">
 				<i class="fa fa-sticky-note mr-2"></i>
-				<span>Note</span>
+				<span>Bulletin Board</span>
 			</a>
 		</li>
-		<li class="">
+		<!-- <li class="">
 			<a class="" href="<?php
 						switch(ENVIRONMENT){
 							case 'development': echo "http://localhost/task/"; break;
@@ -65,7 +65,7 @@
 				<i class="fa fa-tasks mr-2"></i>
 				<span>Task</span>
 			</a>
-		</li>
+		</li> -->
 		
 		<?php if (in_array("USER_LIST", $user->permissions) ||
 				  in_array("USER_VIEW", $user->permissions) ||
