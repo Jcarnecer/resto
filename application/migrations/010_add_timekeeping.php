@@ -817,8 +817,8 @@ class Migration_Add_Timekeeping extends CI_Migration {
             ],
             [
                 "id" => 8,
-                "sub" => "Schedule",
-                "url" => "eschedule",
+                "sub" => "Front of the House",
+                "url" => "shift/front",
                 "menu_id"   => 4,
                 "intern" => NULL,
                 "admin_hr" => 1
@@ -828,6 +828,14 @@ class Migration_Add_Timekeeping extends CI_Migration {
                 "sub" => "Employee Leave",
                 "url" => "leave/employee",
                 "menu_id"   => 3,
+                "intern" => NULL,
+                "admin_hr" => 1
+            ],
+            [
+                "id" => 10,
+                "sub" => "Back of the House",
+                "url" => "shift/back",
+                "menu_id"   => 4,
                 "intern" => NULL,
                 "admin_hr" => 1
             ]
@@ -844,7 +852,7 @@ class Migration_Add_Timekeeping extends CI_Migration {
                 "id" => 1,
                 "permission_id" => "TK_ADMIN",
                 "privileges" => "3,4,8,9",
-                "privilege_sub_menu" => "1,2,3,4,5,6,7,8,9",
+                "privilege_sub_menu" => "1,2,3,4,5,6,7,8,9,10",
                 "created_at"   => "2018-01-01 00:00:00",
                 "updated_at" => "2018-01-01 00:00:00"
             ],
