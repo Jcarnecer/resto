@@ -25,7 +25,7 @@
 		<li class="">
 			<a class="" href="<?php
 			switch(ENVIRONMENT){
-				case 'development': echo "http://localhost/timekeeping/"; break;
+				case 'development': echo "http://localhost/restotimekeeping/"; break;
 				default: echo "http://timekeeping.payakapps.com/"; break;
 			}
 			?>">
@@ -36,7 +36,7 @@
 		<li class="">
 			<a class="" href="<?php
 						switch(ENVIRONMENT){
-							case 'development': echo "http://localhost/chat/"; break;
+							case 'development': echo "http://localhost/restochat/"; break;
 							default: echo "http://chat.payakapps.com/"; break;
 						}
 					?>">
@@ -47,15 +47,15 @@
 		<li class="">
 			<a class="" href="<?php
 						switch(ENVIRONMENT){
-							case 'development': echo "http://localhost/note/"; break;
+							case 'development': echo "http://localhost/restonote/"; break;
 							default: echo "http://note.payakapps.com/"; break;
 						}
 					?>">
 				<i class="fa fa-sticky-note mr-2"></i>
-				<span>Note</span>
+				<span>Bulletin Board</span>
 			</a>
 		</li>
-		<li class="">
+		<!-- <li class="">
 			<a class="" href="<?php
 						switch(ENVIRONMENT){
 							case 'development': echo "http://localhost/task/"; break;
@@ -65,7 +65,7 @@
 				<i class="fa fa-tasks mr-2"></i>
 				<span>Task</span>
 			</a>
-		</li>
+		</li> -->
 		
 		<?php if (in_array("USER_LIST", $user->permissions) ||
 				  in_array("USER_VIEW", $user->permissions) ||
@@ -103,7 +103,7 @@
 				<span></span>
 				<span></span>
 			</div>
-			<a class="navbar-brand" href="#">PayakApps</a>
+			<a class="navbar-brand" href="#">RestoShift</a>
 			
 			<ul class="navbar-nav flex-row ml-auto">
 				<li class="nav-item dropdown">
