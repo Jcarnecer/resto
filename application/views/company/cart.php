@@ -62,9 +62,10 @@
 				<div class="card login-card">
 					<div class="card-header border-bottom-0">
 						<h3 class="text-center mt-3">Select Subscription</h3>
+						<span class="d-block text-center">Pay with <img class="img-fluid w-25" src="<?= base_url('assets/images/paypal.png') ?>" alt="PayPal" srcset=""> or <span class="font-weight-bold">Credit/Debit Card</span></span>
 					</div>
 					<div class="card-body">
-						<div class="list-group font-weight-bold h4">
+						<div class="list-group font-weight-bold h5">
 							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="trial">
 								<div class="row w-100">
 									<div class="col-7">30 Days Trial</div>
@@ -74,13 +75,13 @@
 							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="personal">
 								<div class="row w-100">
 									<div class="col-7">Single User</div>
-									<div class="col-5 text-right">$ 7<small>/month</small></div>
+									<div class="col-5 text-right">$7<small>/month</small></div>
 								</div>
 							</button>
 							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="suite">	
 								<div class="row w-100">
 									<div class="col-7">App Suite <small class="text-success font-weight-bold">(Best Value)</small></div>
-									<div class="col-5 text-right">$ 29<small>/month</small></div>
+									<div class="col-5 text-right">$29<small>/month</small></div>
 								</div>
 							</button>
 						</div>
