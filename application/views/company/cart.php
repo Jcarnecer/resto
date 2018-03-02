@@ -52,90 +52,6 @@
 	</div>
 </div>
 
-<div id="projectContent" class="d-none">
-	<div class="products-section row justify-content-center align-items-center">
-		<div class="col-12 col-md-4">
-			<img src="assets/images/project.svg" alt="PayakApps" class="img-fluid">
-		</div>
-		<div class="col-12 col-md-8">
-			<p class="product-name">Project</p>
-			<ul class="products-list d-table mx-auto">
-                <li>Dashboard</li>
-                <li>Bulletin Board</li>
-                <li>Projects</li>
-                    <ul class="products-nested-list">
-                        <li>Kanban</li>
-                        <li>Chat</li>
-                        <li>Discussion</li>
-                        <li>Files</li>
-                    </ul>
-                <li>Chat</li>
-                <li>To do</li>
-            </ul>
-		</div>
-	</div>
-</div>
-
-<div id="shiftContent" class="d-none">
-	<div class="products-section row justify-content-center align-items-center">
-		<div class="col-12 col-md-4">
-			<img src="assets/images/personal.svg" alt="PayakApps" class="img-fluid">
-		</div>
-		<div class="col-12 col-md-8">
-			<p class="product-name">Shift Management</p>
-			<ul class="products-list d-table mx-auto">
-                <li>Dashboard</li>
-                <li>Bulletin Board</li>
-                <li>Timekeeping</li>
-                    <ul class="products-nested-list">
-                        <li>Timekeeping</li>
-                        <li>Leave Management</li>
-                        <li>Discussion</li>
-                    </ul>
-                <li>Chat</li>
-            </ul>
-		</div>
-	</div>
-</div>
-
-<div id="hrContent" class="d-none">
-	<div class="products-section row justify-content-center align-items-center">
-		<div class="col-12 col-md-4">
-			<img src="assets/images/hr.svg" alt="PayakApps" class="img-fluid">
-		</div>
-		<div class="col-12 col-md-8">
-			<p class="product-name">Human Resource</p>
-			<ul class="products-list d-table mx-auto">
-                <li>Bulletin Board</li>
-                <li>Resumé Management</li>
-                <li>Timekeeping</li>
-                <li>Expense</li>
-                <li>Chat</li>
-            </ul>
-		</div>
-	</div>
-</div>
-
-<div id="suiteContent" class="d-none">
-	<div class="products-section row justify-content-center align-items-center">
-		<div class="col-12 col-md-4">
-			<img src="assets/images/suite.svg" alt="PayakApps" class="img-fluid">
-		</div>
-		<div class="col-12 col-md-8">
-			<p class="product-name">Suite</p>
-			<ul class="products-list d-table mx-auto">
-                <li>Dashboard</li>
-                <li>Bulletin Board</li>
-                <li>Resumé Management</li>
-                <li>Timekeeping</li>
-                <li>Expense</li>
-                <li>Chat</li>
-                <li>Kanban</li>
-            </ul>
-		</div>
-	</div>
-</div>
-
 <div class="container-fluid h-100 login-body">
 	<div class="container h-100">
 		<div class="row h-100">
@@ -145,56 +61,27 @@
 			<div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 mx-auto">
 				<div class="card login-card">
 					<div class="card-header border-bottom-0">
-						<h3 class="text-center mt-3">Select Product</h3>
+						<h3 class="text-center mt-3">Select Subscription</h3>
+						<span class="d-block text-center">Pay with <img class="img-fluid w-25" src="<?= base_url('assets/images/paypal.png') ?>" alt="PayPal" srcset=""> or <span class="font-weight-bold">Credit/Debit Card</span></span>
 					</div>
 					<div class="card-body">
-						<div class="list-group">
-							<button class="list-group-item list-group-item-action p-0" onclick="openSelection(event)" data-target="#selectionModal" data-toggle="modal" data-content="#projectContent" data-value="project">
-								<div class="d-flex w-100">
-									<div class="products-section row align-items-center w-100 py-3">
-										<div class="col-3">
-											<img src="assets/images/project.svg" class="img-fluid" alt="PayakApps">
-										</div>
-										<div class="col-9">
-											<p class="product-name">Project</p>
-										</div>
-									</div>
+						<div class="list-group font-weight-bold h5">
+							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="trial">
+								<div class="row w-100">
+									<div class="col-7">30 Days Trial</div>
+									<div class="col-5 text-right">FREE</div>
 								</div>
 							</button>
-							<button class="list-group-item list-group-item-action p-0" onclick="openSelection(event)" data-target="#selectionModal" date-toggle="modal" data-content="#shiftContent" data-value="shift">
-								<div class="d-flex w-100">
-									<div class="products-section row align-items-center w-100 py-3">
-										<div class="col-3">
-											<img src="assets/images/personal.svg" class="img-fluid" alt="PayakApps">
-										</div>
-										<div class="col-9">
-											<p class="product-name">Shift Management</p>
-										</div>
-									</div>
+							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="personal">
+								<div class="row w-100">
+									<div class="col-7">Single User</div>
+									<div class="col-5 text-right">$7<small>/month</small></div>
 								</div>
 							</button>
-							<button class="list-group-item list-group-item-action disabled p-0" onclick="openSelection(event)" data-target="#selectionModal" date-toggle="modal" data-content="#hrContent" data-value="hr">
-								<div class="d-flex w-100">
-									<div class="products-section row align-items-center w-100 py-3">
-										<div class="col-3">
-											<img src="assets/images/hr.svg" class="img-fluid" alt="PayakApps">
-										</div>
-										<div class="col-9">
-											<p class="product-name">HR <small class="text-primary">(Coming Soon)</small></p>
-										</div>
-									</div>
-								</div>
-							</button>
-							<button class="list-group-item list-group-item-action disabled p-0" onclick="openSelection(event)" data-target="#selectionModal" date-toggle="modal" data-content="#suiteContent" data-value="suite">
-								<div class="d-flex w-100">
-									<div class="products-section row align-items-center w-100 py-3">
-										<div class="col-3">
-											<img src="assets/images/suite.svg" class="img-fluid" alt="PayakApps">
-										</div>
-										<div class="col-9">
-											<p class="product-name">Suite <small class="text-primary">(Coming Soon)</small></p>
-										</div>
-									</div>
+							<button class="list-group-item list-group-item-action" onclick="purchase(event)"data-value="suite">	
+								<div class="row w-100">
+									<div class="col-7">App Suite <small class="text-success font-weight-bold">(Best Value)</small></div>
+									<div class="col-5 text-right">$29<small>/month</small></div>
 								</div>
 							</button>
 						</div>
@@ -208,7 +95,6 @@
 	</div>
 
 	<form action="<?= base_url('companies/checkout') ?>" method="post" id="subscriptionForm">
-		<input type="hidden" name="package">
 		<input type="hidden" name="type">
 	</form>
 
@@ -216,20 +102,6 @@
 		(function($) {
 			$('[data-toggle="tooltip"]').tooltip();
 		}(jQuery));
-
-		function openSelection(e) {
-			e.preventDefault();
-			$('form#subscriptionForm input[name="package"]').val($(e.target).attr('data-value'));
-			$('#selectionModal .modal-body').html($($(e.target).attr('data-content')).html());
-			$('#selectionModal').modal('show');
-		}
-
-		function openSubscription(e) {
-			e.preventDefault();
-			$('form#subscriptionForm input[name="type"]').val($(e.target).attr('data-value'));
-			$('#selectionModal').modal('hide');
-			$('#subscriptionModal').modal('show');
-		}
 
 		function purchase(e) {
 			e.preventDefault();

@@ -29,7 +29,7 @@
 				default: echo "http://timekeeping.payakapps.com/"; break;
 			}
 			?>">
-				<i class="fa fa-clock-o"></i>
+				<i class="fa fa-clock-o mr-2"></i>
 				<span>Timekeeping</span>
 			</a>
 		</li>	
