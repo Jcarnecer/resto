@@ -8,10 +8,10 @@
 }
 
 .app-card:hover {
-    background-color: #273d6a;
+    background-color: #D24D57;
     color: #fff;
-    margin-top: -3px;
-    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.5)
+    transform: translateY(-3px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5)
 }
 
 .card,

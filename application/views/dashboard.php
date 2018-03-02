@@ -14,7 +14,7 @@
         <?php endif; ?>
     </div>
 
-    <div class="bg-primary text-white w-100 py-3">
+    <div class="dashboard-banner text-white w-100 py-3">
         <h1 class="mt-4 font-weight-bold text-center"><span id="greetings"></span>, <?= $first_name ?>!</h1>
         <h5 class="text-center">Today is <span id="date" class="font-weight-bold"></span></h5>
         <h5 class="text-center">The time is <span id="clock" class="font-weight-bold"></span></h5>
@@ -43,25 +43,35 @@
             </div>
         </div>
 
-        <div class="card-columns w-100 my-3">
+        <div class="row my-3">
             <!-- <div class="card" onclick="goto('chat')">
                 <div class="card-body">
                     <h4><i class="fa fa-comments"></i> Chat</h4>
                 </div>
             </div> -->
-            <div class="card app-card" onclick="goto('task')">
-                <div class="card-body">
-                    <h5><i class="fa fa-tasks mr-2"></i>Tasks <span id="taskNotif" class="badge badge-dark float-right"></span></h5>
-                </div>
-            </div>
-            <div class="card app-card" onclick="goto('chat')">
-                <div class="card-body">
-                    <h5><i class="fa fa-comment"></i> Chat</h5>
-                </div>
-            </div>
-            <div class="card app-card" onclick="goto('note')">
-                <div class="card-body">
-                    <h5><i class="fa fa-sticky-note mr-2"></i>Notes <span id="noteNotif" class="badge badge-dark float-right"></span></h5>
+            <div class="col-md-8">
+                <div class="row p-2">
+                    <div class="col-md-6 p-2">
+                        <div class="card app-card" onclick="goto('task')">
+                            <div class="card-body">
+                                <h5><i class="fa fa-tasks mr-2"></i>Tasks <span id="taskNotif" class="badge badge-dark float-right"></span></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-2">
+                        <div class="card app-card" onclick="goto('chat')">
+                            <div class="card-body">
+                                <h5><i class="fa fa-comment"></i> Chat</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-2">
+                        <div class="card app-card" onclick="goto('note')">
+                            <div class="card-body">
+                                <h5><i class="fa fa-sticky-note mr-2"></i>Notes <span id="noteNotif" class="badge badge-dark float-right"></span></h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
