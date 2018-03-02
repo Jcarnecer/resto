@@ -83,7 +83,8 @@ h1 {
     box-shadow: 0 0 6px #1B1B1B; }
 
 .navbar {
-  background: #9D2933 !important; }
+  background: #9D2933 !important;
+  z-index: 99; }
   .navbar .nav-link {
     color: #ffffff !important;
     font-size: 16px;
@@ -116,36 +117,8 @@ h1 {
 
 .products-section {
   padding: 30px 70px 30px 70px; }
-  .products-section .product-details {
-    overflow: hidden;
-    position: relative; }
-  .products-section p.product-name {
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 0; }
-  .products-section .products-list {
-    list-style: disc; }
-    .products-section .products-list .products-nested-list {
-      list-style: circle;
-      padding-left: 30px; }
   .products-section .sign-up-btn, .products-section .white-btn {
     width: 250px; }
-  .products-section .beta {
-    background: #66BB6A;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    height: 30px;
-    line-height: 30px;
-    letter-spacing: 2px;
-    position: absolute;
-    right: -60px;
-    text-align: center;
-    text-transform: uppercase;
-    top: 30px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    width: 200px; }
 
 .plans-section {
   background: #9D2933;
