@@ -3,15 +3,15 @@ $(function() {
     $('#clock').html(clock());
     $('#date').html(date());
 
-    var task = $.ajax({
-        async: false,
-        type: 'GET',
-        url: `${getUrl('task')}api/task/get_all`,
-        data: {
-            author_id: userId
-        },
-        dataType: 'json'
-    });
+    // var task = $.ajax({
+    //     async: false,
+    //     type: 'GET',
+    //     url: `${getUrl('task')}api/task/get_all`,
+    //     data: {
+    //         author_id: userId
+    //     },
+    //     dataType: 'json'
+    // });
 
     var note = $.ajax({
         async: false,
@@ -20,7 +20,7 @@ $(function() {
         dataType: 'json'
     });
 
-    task.done(function(data) {displayTask(data)});
+    // task.done(function(data) {displayTask(data)});
     note.done(function(data) {displayNote(data)});
 
     setInterval(function() {
@@ -77,22 +77,22 @@ function clock(time=null) {
 }
 
 function getUrl(app) {
-    return baseUrl === 'http://payakapps.com' || baseUrl === 'http://stage.payakapps.com' ? `http://${app}.payakapps.com/` : `http://localhost/${app}/`;
+    return baseUrl === 'http://restoshift.com' || baseUrl === 'http://stage.payakapps.com' ? `http://${app}.payakapps.com/` : `http://localhost/${app}/`;
 }
 
-function displayTask(data) {
-    $('#taskNotif').html(data.length);
+// function displayTask(data) {
+//     $('#taskNotif').html(data.length);
 
-    if (data.length == 0) {
-        $('#taskToday').parent().html('<h1 class="text-center text-muted font-weight-bold">No tasks for today</h1>');
-    } else {
-        data.forEach(function(task) {
-            if((new Date()).setHours(0,0,0,0) >= (new Date(task['due_date'])).setHours(0,0,0,0)) {
-                $('#taskToday').append(taskBuilder(task));
-            }
-        });
-    }
-}
+//     if (data.length == 0) {
+//         $('#taskToday').parent().html('<h1 class="text-center text-muted font-weight-bold">No tasks for today</h1>');
+//     } else {
+//         data.forEach(function(task) {
+//             if((new Date()).setHours(0,0,0,0) >= (new Date(task['due_date'])).setHours(0,0,0,0)) {
+//                 $('#taskToday').append(taskBuilder(task));
+//             }
+//         });
+//     }
+// }
 
 function displayNote(data) {
     $('#noteNotif').html(data.length);
