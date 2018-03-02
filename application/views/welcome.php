@@ -33,10 +33,10 @@
             <a class="nav-link" href="#pricing">Pricing</a>
         </li>
         <li class="nav-item">
-            <a class="btn btn-primary sign-up-btn" href="<?= base_url("users/login") ?>">Login</a>
+            <a class="btn white-btn" href="<?= base_url("users/login") ?>">Login</a>
         </li>
         <li class="nav-item">
-            <a class="btn btn-primary sign-up-btn" href="<?= base_url("companies/register") ?>">Sign Up</a>
+            <a class="btn white-btn" href="<?= base_url("companies/register") ?>">Sign Up</a>
         </li>
       </ul>
     </div>
@@ -91,131 +91,76 @@
 </div> -->
 <div class="container-fluid">
     <div class="row full-page first-fold">
-        <div class="col-md-7 my-auto">
-            <img src="assets/images/home_image.png" alt="Home image thumbnail" class="home-thumb mx-auto d-block img-fluid">
+        <div class="col-md-6 align-self-center">
+            <img src="assets/images/home_image.png" alt="Home image thumbnail" class="mx-auto d-block img-fluid">
         </div>
-        <div class="col-md-5 my-auto p-5">
-            <img src="assets/images/payak-logo-white-90.png" alt="Payak logo" class="logo-shadow">
-            <p class="first-fold-title">Keeping things simple.</p>
+        <div class="col-md-6 align-self-center">
+            <p class="title">Restoshift logo</p>
+            <!-- <img src="assets/images/payak-logo-white-90.png" alt="Payak logo" class="logo-shadow"> -->
+            <p class="lead">Shift Management Application built specifically for Restaurants.</p>
             <!-- <p>The no-frills business productivity suite built for fast-growing businesses.</p> -->
             <button type="button"  class="sign-up-btn d-block" data-toggle="modal" data-target="#signUpModal">Get Started</button>
         </div>
     </div>
 
-    <div class="row products-section" id="products">
+    <div class="row products-section">
         <div class="col-md-12">
-            <h1 class="text-center">Products</h1>
+            <h1 class="text-center">What you'll love</h1>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="border product-details">
-                <img src="assets/images/project.svg" alt="Hire Tracker thumbnail" class="product-thumb mx-auto d-block img-fluid">
-                <!-- <img src="assets/images/hire-tracker.png" alt="Hire Tracker thumbnail" class="product-thumb mx-auto d-block img-fluid"> -->
-                <h2 class="font-weight-bold text-center mb-3 mt-3">Project</h2>
-                <ul class="products-list d-table mx-auto">
-                    <li>Dashboard</li>
-                    <li>Bulletin Board</li>
-                    <li>Projects</li>
-                        <ul class="products-nested-list">
-                            <li>Kanban</li>
-                            <li>Blog/Forum</li>
-                            <li>Files</li>
-                        </ul>
-                    <li>Personal Tasks</li>                    
-                    <li>Chat</li>
-                </ul>
-            </div>
+        <div class="col-md-6 align-self-center">
+            <p class="text-left">
+                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
+            </p>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="border product-details">
-                <img src="assets/images/personal.svg" alt="Hire Tracker thumbnail" class="product-thumb mx-auto d-block img-fluid">
-                <!-- <img src="assets/images/time-tracker.png" alt="Time Tracker thumbnail" class="product-thumb mx-auto d-block img-fluid"> -->
-                <h2 class="font-weight-bold text-center mb-3 mt-3">Shift</h2>
-                <ul class="products-list d-table mx-auto">
-                    <li>Dashboard</li>
-                    <li>Bulletin Board</li>
-                    <li>Timekeeping</li>
-                        <ul class="products-nested-list">
-                            <li>Timekeeping Module</li>
-                            <li>Leave Management</li>
-                            <li>Shift Monitoring</li>
-                        </ul>
-                    <li>Personal Tasks</li>
-                    <li>Chat</li>
-                </ul>
-            </div>
+        <div class="col-md-6">
+            <img src="assets/images/restoshift-icon.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="border product-details">
-                <div class="beta">
-                    Beta
-                </div>
-                <img src="assets/images/hr.svg" alt="Expense Manager thumbnail" class="product-thumb mx-auto d-block img-fluid">
-                <!-- <img src="assets/images/expense-manager.png" alt="Expense Manager thumbnail" class="product-thumb mx-auto d-block img-fluid"> -->
-                <h2 class="font-weight-bold text-center mb-3 mt-3">HR</h2>
-                <ul class="products-list d-table mx-auto">
-                    <li>Dashboard</li>
-                    <li>Bulletin Board</li>
-                    <li>Resumé Management</li>
-                    <li>Hiring Lifecycle</li>
-                    <li>Timekeeping</li>
-                    <li>Expense</li>
-                    <li>Personal Tasks</li>
-                    <li>Chat</li>
-                </ul>
-            </div>
+        <div class="col-md-6">
+            <img src="assets/images/restoshift-timekeeping.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
-            <div class="border product-details">
-                <div class="beta">
-                    Beta
-                </div>
-                <img src="assets/images/suite.svg" alt="Expense Manager thumbnail" class="product-thumb mx-auto d-block img-fluid">
-                <h2 class="font-weight-bold text-center mb-3 mt-3">PayakApps</h2>
-                <ul class="products-list d-table mx-auto">
-                    <li>Dashboard</li>
-                    <li>Bulletin Board</li>
-                    <li>Projects</li>
-                    <li>Resumé Management</li>
-                    <li>Timekeeping</li>
-                    <li>Expense</li>
-                    <li>Personal Tasks</li>
-                    <li>Chat</li>
-                </ul>
-            </div>
+        <div class="col-md-6 align-self-center">
+            <p class="text-left">
+                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
+            </p>
         </div>
-        <div class="col-md-12">
-            <button class="sign-up-btn center-block mt-5">Get Started</button>
+        <div class="col-md-6 align-self-center">
+            <p class="text-left">
+                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="assets/images/restoshift-bulletin-board.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
     </div>
     <div class="row plans-section text-center align-items-center" id="pricing">
         <div class="col-md-12">
             <h1 class="text-center">Plans</h1>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-4">
                 <p class="plan-name">
                     <br>
                     <h2>FREE</h2>
                     30 days trial
                 </p>
                 <ul>
-                    <li>App Suite</li>
+                    <!-- <li>App Suite</li> -->
                     <li>Unlimited Users</li>
                 </ul>
             <button class="sign-up-btn center">Subscribe</button>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="col-xs-12 col-sm-6 col-md-4">
             <p class="plan-name">
                 Single User<br>
                 <h2>$7<sup>99</sup></h2>
                 <span class="per-month-text">/month</span>
             </p>
             <ul>
-                <li>Single app</li>
+                <!-- <li>Single app</li> -->
                 <li>One user</li>
             </ul>
             <button class="sign-up-btn center">Subscribe</button>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        <!-- <div class="col-xs-12 col-sm-6 col-md-3">
                 <p class="plan-name">
                     Company<br>
                     <h2>$29<sup>99</sup></h2>
@@ -226,32 +171,27 @@
                     <li>Unlimited Users</li>
                 </ul>
             <button class="sign-up-btn center">Subscribe</button>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3">
+        </div> -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
             
             <div class="recommended-plan">
                 <div class="recommended-banner">Best Value</div>
                 <p class="plan-name">
                     App Suite<br>
-                    <h2>$59<sup>99</sup></h2>
+                    <h2>$29<sup>99</sup></h2>
                     <span class="per-month-text">/month</span>
                 </p>
                 <ul>
-                    <li>All apps</li>
+                    <!-- <li>Single app</li> -->
                     <li>Unlimited Users</li>
                 </ul>
                 <button class="sign-up-btn center">Subscribe</button>
             </div>
         </div>
     </div>
-    <!-- <div class="row">
-        <div class="col-md-12">
-            <h1 class="text-center">Companies using Payak Apps</h1>
-        </div>
-    </div> -->
     <div class="row get-started-section">
         <div class="col-md-12">
-            <h1 class="text-center">Boost your productivity with Payak Apps!</h1>
+            <h1 class="text-center">Now you can have more time for what matters most</h1>
             <button class="sign-up-btn center-block">Get Started</button>
         </div>
     </div>

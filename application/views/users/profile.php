@@ -18,7 +18,7 @@
 							<img class="img-fluid rounded mx-auto d-block w-100 avatar" src="<?= $user->avatar_url ?>" />
 							<form class="mt-3" id="uploadAvatarFrm" method="POST" action="<?= base_url("users/profile/update-avatar") ?>" enctype="multipart/form-data">
 								<input class="form-control-file" type="file" id="avatar" name="avatar" accept="image/*" />
-								<label class="btn btn-primary btn-block" for="avatar">Upload new avatar</label>
+								<label class="btn custom-button btn-block" for="avatar">Upload new avatar</label>
 							</form>
 						</div>
 						<div class="col-sm-9">
@@ -41,7 +41,7 @@
 								<div class="form-group row">
 									<div class="col-sm-2"></div>
 									<div class="col-sm-10">
-										<input class="btn btn-primary" type="submit" value="Update profile" />
+										<input class="btn custom-button float-right" type="submit" value="Update profile" />
 									</div>
 								</div>
 							</form>

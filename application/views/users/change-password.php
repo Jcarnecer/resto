@@ -37,8 +37,8 @@
 						<div class="form-group row">
 							<div class="col-sm-3"></div>
 							<div class="col-sm-7">
-								<button class="btn btn-primary" type="submit">Update</button>
-								<a class="btn btn-secondary" href="<?= base_url("users/profile") ?>">Cancel</a>
+								<button class="btn custom-button float-right" type="submit">Update</button>
+								<a class="btn float-right" href="<?= base_url("users/profile") ?>">Cancel</a>
 							</div>
 						</div>
 					</form>
