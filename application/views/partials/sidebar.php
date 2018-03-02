@@ -103,7 +103,7 @@
 				<span></span>
 				<span></span>
 			</div>
-			<a class="navbar-brand" href="#">Restoshift</a>
+			<a class="navbar-brand" href="#">RestoShift</a>
 			
 			<ul class="navbar-nav flex-row ml-auto">
 				<li class="nav-item dropdown">
