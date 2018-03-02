@@ -1,23 +1,8 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Free Web tutorials">
-    <meta name="keywords" content="project time management software">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Payak Apps</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="assets/css/flavored-reset-and-normalize.css" >
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" >
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css" >
-  </head> -->
-  <!-- <body> -->
-      <!-- navigation.nunjucks -->
 <link rel="stylesheet" type="text/css" href="assets/css/welcome.css">
 
+
 <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#"><img src="assets/images/payak-logo-blue-40.png" alt="Payak logo"></a>
+    <a class="navbar-brand" href="#"><img src="assets/images/restoshift-logo-white-40.png" alt="Restoshift logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -95,8 +80,8 @@
             <img src="assets/images/home_image.png" alt="Home image thumbnail" class="mx-auto d-block img-fluid">
         </div>
         <div class="col-md-6 align-self-center">
-            <p class="title">Restoshift logo</p>
-            <!-- <img src="assets/images/payak-logo-white-90.png" alt="Payak logo" class="logo-shadow"> -->
+            <!-- <p class="title">Restoshift logo</p> -->
+            <img src="assets/images/restoshift-logo-black-60.png" alt="Restoshift logo">
             <p class="lead">Shift Management Application built specifically for Restaurants.</p>
             <!-- <p>The no-frills business productivity suite built for fast-growing businesses.</p> -->
             <button type="button"  class="sign-up-btn d-block" data-toggle="modal" data-target="#signUpModal">Get Started</button>
@@ -107,29 +92,41 @@
         <div class="col-md-12">
             <h1 class="text-center">What you'll love</h1>
         </div>
-        <div class="col-md-6 align-self-center">
-            <p class="text-left">
-                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
-            </p>
-        </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
             <img src="assets/images/restoshift-icon.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6 align-self-center">
+            <h1>Shift Management</h1>
+            <p class="lead text-left">
+                Create shifts for both back and front of the house with the drag and drop shift assignment.
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6 align-self-center">
+            <h1>Timekeeping</h1>
+            <p class="lead text-left">
+                Keep track of employee attendance with timekeeping and leave management feature.
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
             <img src="assets/images/restoshift-timekeeping.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-md-6 align-self-center">
-            <p class="text-left">
-                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
-            </p>
-        </div>
-        <div class="col-md-6 align-self-center">
-            <p class="text-left">
-                Bacon ipsum dolor amet biltong alcatra tri-tip sausage chuck filet mignon landjaeger capicola meatloaf porchetta. Buffalo landjaeger tongue drumstick ham. Landjaeger leberkas hamburger tri-tip shoulder biltong cow sausage ribeye beef short loin. Boudin pork belly sirloin t-bone, kevin spare ribs sausage drumstick rump pig landjaeger.
-            </p>
-        </div>
-        <div class="col-md-6">
+        <div class="col-xs-12 col-md-6">
             <img src="assets/images/restoshift-bulletin-board.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
+        </div>
+        <div class="col-xs-12 col-md-6 align-self-center">
+            <h1>Bulletin Board</h1>
+            <p class="lead text-left">
+                Release announcements and messages using the built-in bulletin board.
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6 align-self-center">
+            <h1>Chat</h1>
+            <p class="lead text-left">
+                Communicate with your team with the chat feature.
+            </p>
+        </div>
+        <div class="col-xs-12 col-md-6">
+            <img src="assets/images/restoshift-chat.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
     </div>
     <div class="row plans-section text-center align-items-center" id="pricing">
