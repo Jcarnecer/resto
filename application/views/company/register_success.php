@@ -15,8 +15,6 @@
                             <dt class="col-4">Company</dt>
                             <dd class="col-8"><?= $company['name'] ?></dd>
                             <div class="w-100 mb-3"></div>
-                            <dt class="col-4">Package</dt>
-                            <dd class="col-8"><?= $subscription['package'] ?></dd>
                             <dt class="col-4">Subscription</dt>
                             <dd class="col-8"><?= $subscription['type'] ?></dd>
                             <dt class="col-4">Price</dt>
