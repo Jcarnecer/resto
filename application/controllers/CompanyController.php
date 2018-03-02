@@ -126,21 +126,6 @@ class CompanyController extends BaseController
 
         $this->load->library('Paypal', $config);
 
-        switch($this->input->post('package')) {
-            case 'project':
-                $item['package']='Project Package';
-                break;
-            case 'shift':
-                $item['package']='Shift Management Package';
-                break;
-            case 'hr':
-                $item['package']='Human Resource Package';
-                break;
-            case 'suite':
-                $item['package']='PayakApp Suite Package';
-                break;
-        }
-
         switch($this->input->post('type')) {
             case 'trial':
                 $item['type']='Trial';
@@ -150,13 +135,9 @@ class CompanyController extends BaseController
                 $item['type']='Single User';
                 $item['price']=7.00;
                 break;
-			case 'company':
-                $item['type']='Company';
-                $item['price']=29.00;
-                break;
             case 'suite':
                 $item['type']='App Suite';
-                $item['price']=59.00;
+                $item['price']=29.00;
                 break;
 		}
 
@@ -166,7 +147,7 @@ class CompanyController extends BaseController
 			return redirect('companies/register_success');
 		}
 
-        $this->paypal->add($item['package'].' ('.$item['type'].')',$item['price']);
+        $this->paypal->add('RestoShift ('.$item['type'].')', $item['price']);
         $this->paypal->pay();
     }
 }
