@@ -35,7 +35,7 @@ class BaseController extends CI_Controller {
 	public function guest_page(
 		$view, 
 		$data = [], 
-		$title = "RestoSShift"
+		$title = "RestoShift"
 	) {
 		$this->load->view("partials/header", ["title" => $title]);
 		$this->load->view($view, $data);
