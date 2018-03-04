@@ -414,7 +414,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 */
 
 if (ENVIRONMENT === 'production') {
-	$config['cookie_domain'] = '.payakapps.com';
+	$config['cookie_domain'] = '.restoshift.com';
 } else {
 	$config['cookie_domain'] = ''; 
 }
