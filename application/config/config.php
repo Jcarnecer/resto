@@ -29,12 +29,12 @@ switch (ENVIRONMENT) {
 	case 'development':
 		$config['base_url'] = 'http://localhost/resto/';
 		break;
-	// case 'testing':
-	// 	$config['base_url'] = 'http://stage.payakkaps.com/';
-	// 	break;
-	// case 'production':
-	// 	$config['base_url'] = 'http://payakapps.com/';
-	// 	break;
+	case 'testing':
+		$config['base_url'] = 'http://stage.payakkaps.com/';
+		break;
+	case 'production':
+		$config['base_url'] = 'http://restoshift.com/';
+		break;
 }
 
 /*
@@ -414,7 +414,7 @@ $config['sess_regenerate_destroy'] = FALSE;
 */
 
 if (ENVIRONMENT === 'production') {
-	$config['cookie_domain'] = '.payakapps.com';
+	$config['cookie_domain'] = '.restoshift.com';
 } else {
 	$config['cookie_domain'] = ''; 
 }
