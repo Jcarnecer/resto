@@ -92,7 +92,7 @@
             <h1 class="text-center">What you'll love</h1>
         </div>
         <div class="col-xs-12 col-md-6">
-            <img src="assets/images/restoshift-icon.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
+            <img src="assets/images/restoshift-scheduling.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
         <div class="col-xs-12 col-md-6 align-self-center">
             <h1>Shift Management</h1>
