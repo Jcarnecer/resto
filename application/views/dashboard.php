@@ -22,7 +22,7 @@
 
     <div class="w-100 h-100 px-3 py-4">
         <div class="row align-items-stretch my-3">
-            <div class="col-md-8">
+            <!-- <div class="col-md-8">
                 <div class="card h-100">
                     <div class="card-header h5"><i class="fa fa-tasks"></i> Today's Tasks</div>
                     <div class="card-body">
@@ -31,9 +31,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="col-md-4">
+            <div class="col-12">
                 <div class="card h-100">
                     <div class="card-header h5"><i class="fa fa-bullhorn"></i> Announcements</div>
                     <div id="announcement" class="card-body">
@@ -51,13 +51,13 @@
             </div> -->
             <div class="col-md-8">
                 <div class="row p-2">
-                    <div class="col-md-6 p-2">
+                    <!-- <div class="col-md-6 p-2">
                         <div class="card app-card" onclick="goto('task')">
                             <div class="card-body">
                                 <h5><i class="fa fa-tasks mr-2"></i>Tasks <span id="taskNotif" class="badge badge-dark float-right"></span></h5>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 p-2">
                         <div class="card app-card" onclick="goto('chat')">
                             <div class="card-body">
