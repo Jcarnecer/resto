@@ -192,7 +192,7 @@
             <div class="col-xs-12 col-sm-3 col-md-3">
                 <h6 class="footer-heading">Contact Us</h6>
                 <hr class="footer-hr">
-                <a href="mailto:info@restoshift.com" class="footer-content">Learn more</a><br>
+                <a href="mailto:information@restoshift.com" class="footer-content">Learn more</a><br>
                 <a href="mailto:support@restoshift.com" class="footer-content">Support</a>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
