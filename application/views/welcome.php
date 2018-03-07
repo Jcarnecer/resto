@@ -93,7 +93,7 @@
             <h1 class="text-center">What you'll love</h1>
         </div>
         <div class="col-xs-12 col-md-6">
-            <img src="assets/images/restoshift-icon.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
+            <img src="assets/images/restoshift-scheduling.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
         <div class="col-xs-12 col-md-6 align-self-center">
             <h1>Shift Management</h1>
@@ -101,31 +101,31 @@
                 Create shifts for both back and front of the house with the drag and drop shift assignment.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6 align-self-center">
+        <div class="col-xs-12 col-md-6 align-self-center order-md-1 order-2">
             <h1>Timekeeping</h1>
             <p class="lead text-left">
                 Keep track of employee attendance with timekeeping and leave management feature.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 order-md-2 order-1">
             <img src="assets/images/restoshift-timekeeping.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 order-md-3 order-3">
             <img src="assets/images/restoshift-bulletin-board.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
-        <div class="col-xs-12 col-md-6 align-self-center">
+        <div class="col-xs-12 col-md-6 align-self-center order-md-4 order-4">
             <h1>Bulletin Board</h1>
             <p class="lead text-left">
                 Release announcements and messages using the built-in bulletin board.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6 align-self-center">
+        <div class="col-xs-12 col-md-6 align-self-center order-md-5 order-6">
             <h1>Chat</h1>
             <p class="lead text-left">
                 Communicate with your team with the chat feature.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-6 order-md-6 order-5">
             <img src="assets/images/restoshift-chat.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
     </div>
