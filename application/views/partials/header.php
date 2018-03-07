@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 		<link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/images/favicon.ico') ?>">
 		<title><?= $title ?></title>
+		<meta name="google-site-verification" content="yR1aNi4LY2zVELxr8iYuKHNwc9rrXzRvIFd5IlIje6A"/>
 		<base href="<?= base_url() ?>" />
 		<!-- <link rel="stylesheet" type="text/css" href="assets/css/flavored-reset-and-normalize.min.css" >
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" > -->

@@ -12,7 +12,7 @@ class BaseController extends CI_Controller {
 	public function main_page(
 		$view, 
 		$data = [], 
-		$title = "PayakApps"
+		$title = "RestoShift"
 	) {
 		$user = $this->current_user();
 
@@ -35,7 +35,7 @@ class BaseController extends CI_Controller {
 	public function guest_page(
 		$view, 
 		$data = [], 
-		$title = "PayakApps"
+		$title = "RestoShift"
 	) {
 		$this->load->view("partials/header", ["title" => $title]);
 		$this->load->view($view, $data);
