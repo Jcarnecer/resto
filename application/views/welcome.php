@@ -76,10 +76,10 @@
 </div> -->
 <div class="container-fluid">
     <div class="row full-page first-fold">
-        <div class="col-md-6 align-self-center">
+        <div class="col-12 col-md-6 align-self-center align-self-md-center">
             <img src="assets/images/home_image.png" alt="Home image thumbnail" class="mx-auto d-block img-fluid">
         </div>
-        <div class="col-md-6 align-self-center">
+        <div class="col-12 col-md-6 align-self-top align-self-md-center">
             <!-- <p class="title">Restoshift logo</p> -->
             <img src="assets/images/restoshift-logo-black-60.png" alt="Restoshift logo">
             <p class="lead">Shift Management Application built specifically for Restaurants.</p>
@@ -88,45 +88,37 @@
         </div>
     </div>
 
-    <div class="row products-section">
+    <div class="row py-4 p-md-5">
         <div class="col-md-12">
             <h1 class="text-center">What you'll love</h1>
         </div>
-        <div class="col-xs-12 col-md-6">
+        <div class="col-xs-12 col-md-3">
             <img src="assets/images/restoshift-scheduling.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
-        </div>
-        <div class="col-xs-12 col-md-6 align-self-center">
             <h1>Shift Management</h1>
             <p class="lead text-left">
                 Create shifts for both back and front of the house with the drag and drop shift assignment.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6 align-self-center order-md-1 order-2">
+        <div class="col-xs-12 col-md-3">
+            <img src="assets/images/restoshift-timekeeping.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
             <h1>Timekeeping</h1>
             <p class="lead text-left">
                 Keep track of employee attendance with timekeeping and leave management feature.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6 order-md-2 order-1">
-            <img src="assets/images/restoshift-timekeeping.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
-        </div>
-        <div class="col-xs-12 col-md-6 order-md-3 order-3">
+        <div class="col-xs-12 col-md-3">
             <img src="assets/images/restoshift-bulletin-board.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
-        </div>
-        <div class="col-xs-12 col-md-6 align-self-center order-md-4 order-4">
             <h1>Bulletin Board</h1>
             <p class="lead text-left">
                 Release announcements and messages using the built-in bulletin board.
             </p>
         </div>
-        <div class="col-xs-12 col-md-6 align-self-center order-md-5 order-6">
+        <div class="col-xs-12 col-md-3">
+            <img src="assets/images/restoshift-chat.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
             <h1>Chat</h1>
             <p class="lead text-left">
                 Communicate with your team with the chat feature.
             </p>
-        </div>
-        <div class="col-xs-12 col-md-6 order-md-6 order-5">
-            <img src="assets/images/restoshift-chat.gif" alt="Home image thumbnail" class="product-thumb mx-auto d-block img-fluid">
         </div>
     </div>
     <div class="row plans-section text-center align-items-center" id="pricing">
@@ -198,19 +190,19 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <h6 class="footer-heading">Help</h6>
+                <h6 class="footer-heading">Contact Us</h6>
                 <hr class="footer-hr">
-                <a href="#" class="footer-content">Report a problem</a><br>
-                <a href="#" class="footer-content">Contact us</a>
+                <a href="mailto:info@restoshift.com" class="footer-content">Learn more</a><br>
+                <a href="mailto:support@restoshift.com" class="footer-content">Support</a>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <h6 class="footer-heading">Legal Stuff</h6>
+                <h6 class="footer-heading">Legal</h6>
                 <hr class="footer-hr">
                 <a href="#" class="footer-content">Privacy Policy</a><br>
                 <a href="#" class="footer-content">Terms and Conditions</a>
             </div>
             <div class="col-xs-12 col-sm-3 col-md-3">
-                <h6 class="footer-heading">Follow Us!</h6>
+                <h6 class="footer-heading">Follow Us</h6>
                 <hr class="footer-hr">
                 <a href="#" class="footer-icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                 <a href="#" class="footer-icon"><i class="fa fa-instagram" aria-hidden="true"></i></i></a>
