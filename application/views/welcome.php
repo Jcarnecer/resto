@@ -26,65 +26,20 @@
       </ul>
     </div>
 </nav>
-      <!-- You write code for this content block in another file -->
       
-<!-- <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title">Sign Up</h3>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label>Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label>First Name</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
-          </div>
-          <div class="form-group">
-            <label>Last Name</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
-          </div>
-          <div class="form-group">
-            <label>Country</label>
-            <input type="text" class="form-control" id="country" placeholder="Enter country">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-check">
-            <label class="form-check-label">
-              <input type="checkbox" class="form-check-input">
-              Check me out
-            </label>
-          </div>
-      </div>
-      <div class="modal-footer">
-          <button class="sign-up-btn center-block">Sign Up</button>
-        </form>
-      </div>
-    </div>
-  </div>
-</div> -->
 <div class="container-fluid">
-    <div class="row full-page first-fold">
+    <div class="row full-page first-fold justify-content-around">
         <div class="col-12 col-md-6 align-self-center align-self-md-center">
-            <img src="assets/images/home_image.png" alt="Home image thumbnail" class="mx-auto d-block img-fluid">
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 25px; height: 0;">
+            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/dHcm4iCvNK8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="col-12 col-md-6 align-self-top align-self-md-center">
+        <div class="col-12 col-md-5 align-self-top align-self-md-center text-center">
             <!-- <p class="title">Restoshift logo</p> -->
             <img src="assets/images/restoshift-logo-black-60.png" alt="Restoshift logo">
-            <p class="lead">Shift Management Application built specifically for Restaurants.</p>
+            <p class="lead">Shift Management especially designed for restaurants.</p>
             <!-- <p>The no-frills business productivity suite built for fast-growing businesses.</p> -->
-            <button type="button"  class="sign-up-btn d-block" data-toggle="modal" data-target="#signUpModal">Get Started</button>
+            <button type="button"  class="sign-up-btn d-block mx-auto" data-toggle="modal" data-target="#signUpModal">Get Started</button>
         </div>
     </div>
 
@@ -211,17 +166,11 @@
     </div>
 </footer>
 
-    <!-- <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script> -->
-    <script src="assets/js/main.js"></script>
-    <script>
-    $(function(){
-        $(document).on('click', '.sign-up-btn', function() {
-            window.location.href = "<?= base_url('companies/register') ?>";
-        });
+<script src="assets/js/main.js"></script>
+<script>
+$(function(){
+    $(document).on('click', '.sign-up-btn', function() {
+        window.location.href = "<?= base_url('companies/register') ?>";
     });
-    </script>
-    
-  <!-- </body> -->
-<!-- </html> -->
+});
+</script>
