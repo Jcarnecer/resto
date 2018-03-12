@@ -10,12 +10,12 @@
 	</div>
 
 	<ul class="sidebar-menu">		
-		<li class="">
+		<!-- <li class="">
 			<a class="text-warning font-weight-bold" href="#tutorialModal" data-toggle="modal">
 				<i class="fa fa-star mr-2"></i>
 				<span>Get Started</span>
 			</a>
-		</li>
+		</li> -->
 		<li class="">
 			<a class="" href="<?= base_url('/') ?>">
 				<i class="fa fa-dashboard mr-2"></i>
@@ -79,7 +79,7 @@
 		<li class="sub-menu">
 			<a data-toggle="collapse" href="#UIElementsSub" aria-expanded="false" aria-controls="UIElementsSub" >
 				<i class="fa fa-users mr-2"></i>
-				<span>Access</span>
+				<span>Account Management</span>
 			</a>
 			<ul class="sub collapse" id="UIElementsSub">
 				<?php if (in_array("USER_LIST", $user->permissions)): ?>
