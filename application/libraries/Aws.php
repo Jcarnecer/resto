@@ -1,3 +1,4 @@
+
 <?php
 
 require 'aws/aws-autoloader.php';
@@ -21,13 +22,13 @@ class Aws
 
 		$result = $s3Client->putObject([
 			'ACL' => 'public-read',
-			'Bucket' => 'payakapps.com',
+			'Bucket' => 'restoshift.com',
 			'ContentType' => 'image/png',
 			'SourceFile' => $_FILES['avatar']['tmp_name'],
 			'Key' => "avatar/{$user_id}.jpg"
 		]);
 
-		$avatar_url = "https://s3-ap-southeast-1.amazonaws.com/payakapps.com/avatar/{$user_id}.jpg";
+		$avatar_url = "https://s3-ap-southeast-1.amazonaws.com/restoshift.com/avatar/{$user_id}.jpg";
 		$this->CI->session->user->avatar_url = $avatar_url;
 		$this->CI->user->update($user_id, [
 			"avatar_url" => $avatar_url
